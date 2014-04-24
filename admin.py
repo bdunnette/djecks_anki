@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from djecks_anki.models import AnkiDeck
+
+admin.site.register(AnkiDeck)
